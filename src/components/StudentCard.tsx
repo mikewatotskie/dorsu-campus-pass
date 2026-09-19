@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
@@ -6,8 +7,8 @@ import { StatusBadge } from './StatusBadge';
 import { colors } from '../styles/theme';
 
 interface StudentCardProps {
-  readonly student: StudentProfile;
-  readonly isActive: boolean;
+   student: StudentProfile;
+   isActive: boolean;
 }
 
 export function StudentCard({

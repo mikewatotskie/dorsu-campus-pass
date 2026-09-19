@@ -1,10 +1,11 @@
+import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { colors } from '../styles/theme';
 
 interface ScanCounterProps {
-  readonly count: number;
-  readonly onScan: () => void;
-  readonly onReset: () => void;
+   count: number;
+   onScan: () => void;
+   onReset: () => void;
 }
 
 export function ScanCounter({ count, onScan, onReset }: ScanCounterProps) {
